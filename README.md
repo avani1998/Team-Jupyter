@@ -1,3 +1,3 @@
 # Team-Jupyter
 
-Interested in data science? 
+Interested in data science? Learn from our [Instagram](https://www.instagram.com/filii_jupyter/) page
