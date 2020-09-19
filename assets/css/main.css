@@ -3234,7 +3234,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg3.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg2.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3391,10 +3391,13 @@ input, select, textarea {
 		}
 
 		#intro p {
-			font-size: 1.25rem;
-			font-style: italic;
+			background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+			
+			font-size: 1.5rem;
+		    font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
+			border-radius: 20px;
 		}
 
 		#intro + #header {
@@ -3953,13 +3956,14 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #f5f5f5;
+		background-color: grey;
 		color: #909498;
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
+		height: 50px
 		z-index: 2;
 	}
 
@@ -4295,7 +4299,7 @@ input, select, textarea {
 		#footer p {
 			font-size: 0.8rem;
 		}
-
+#
 		@media screen and (max-width: 980px) {
 
 			#footer {
@@ -4383,7 +4387,7 @@ input, select, textarea {
 		}
 
 	#copyright {
-		color: #ffffff;
+		color: white;
 		position: relative;
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
